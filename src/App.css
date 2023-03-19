@@ -1,0 +1,76 @@
+#root{
+  height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+  padding-top: 20px;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  width: 100%;
+}
+
+.App{
+  margin: 0 auto;
+  margin-top : 4rem;
+  height: 300px;
+  width: 200px;
+  background-color: white;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-rows: 3fr 1fr 1fr;
+  color: hsl(218, 44%, 22%);
+}
+
+.App .Qr-Image{
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+.App .Qr-Image img{
+  height: 170px;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.App h1{
+  font-size: 0.8rem;
+  display: flex;
+  text-align: center;
+  justify-content:center;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.App p{
+  display: flex;
+  font-size: 0.7rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+@media (min-width: 576px){
+   .App{
+    margin-top: 5rem;
+    height: 450px;
+    width: 300px;
+    padding: 2rem 0;
+   }
+
+   .App .Qr-Image{
+    padding: 0 2rem;
+  }
+  
+  .App .Qr-Image img{
+    height: 250px;
+    width: 100%;
+    border-radius: 1rem;
+  }
+
+   .App h1{
+    font-size: 1.3rem;
+   }
+
+   .App p {
+    font-size: 1.1rem;
+   }
+}
