@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import QrCode from "./assets/images/image-qr-code.png";
+import QrCode from "../dist/assets/images/image-qr-code.png";
 
 function App() {
   return (
